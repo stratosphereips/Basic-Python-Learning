@@ -29,7 +29,6 @@ def do(filename, maxlines):
         prev_dip = dip
         line = f.readline()
         line_number += 1
-
     print('}')
 
 

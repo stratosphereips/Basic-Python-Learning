@@ -26,7 +26,6 @@ def do(filename, maxlines):
         print('\t\"{}\" -> \"{}\";'.format(sip,dip))
         line = f.readline()
         line_number += 1
-
     print('}')
 
 
