@@ -38,7 +38,6 @@ def do(filename, maxlines):
 ####################
 if __name__ == '__main__':  
     # Parse the parameters
-    parser = argparse.ArgumentParser()
     parser = argparse.ArgumentParser(description="Program xxx version {}. Author: xxx".format(__version__), usage='%(prog)s -n <screen_name> [options]')
     parser.add_argument('-v', '--verbose', help='Amount of verbosity. This shows more info about the results.', action='store', default=0, required=False, type=int)
     parser.add_argument('-d', '--debug', help='Amount of debugging. This shows inner information about the flows.', action='store', default=0, required=False, type=int)
