@@ -21,9 +21,6 @@ def do(filename, maxlines):
         fields = line.split(',')
         sip = fields[3]
         dip = fields[6]
-        if ':' in sip or ':' in dip:
-            line = f.readline()
-            continue
         if args.debug > 0:
             print('Sip: {}, dip: {}'.format(sip,dip))
         print('\t\"{}\" -> \"{}\";'.format(sip,dip))

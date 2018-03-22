@@ -22,9 +22,6 @@ def do(filename, maxlines):
     while line and line_number <= maxlines :
         fields = line.split(',')
         dip = fields[6]
-        if ':' in dip:
-            line = f.readline()
-            continue
         if args.debug > 0:
             print('Prev_dip: {}, dip: {}'.format(prev_dip,dip))
         if prev_dip:
