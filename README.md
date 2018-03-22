@@ -1,6 +1,9 @@
 # Template Program for basic python learning
 This is a template for learning python. The idea is to have a template to analyze text files.
 
+The binetflow file in this project is: http://mcfp.felk.cvut.cz/publicDatasets/CTU-Malware-Capture-Botnet-184-1/2016-07-29_winn3.binetflow   
+
+
 ## Usage
 - If you want to use the graph1.py tool
 
